@@ -1,0 +1,19 @@
+From: "Bank Security" <fraud-team@secure-verification-bank.com>
+To: victim@example.com
+Subject: Urgent: Account Suspension Notice
+Authentication-Results: spf=fail; dkim=fail; dmarc=fail
+Date: Thu, 19 Mar 2026 12:00:00 +0000
+
+Dear Customer,
+
+Your account has been flagged for suspicious activity. 
+
+We detected an unauthorized login attempt from IP 192.168.1.100.
+To avoid immediate suspension, you must verify your identity now.
+
+Click here to verify: http://secure-verification-bank-login.com/update-account
+
+Act within 24 hours or your account will be locked.
+
+Regards,
+Bank Security Team

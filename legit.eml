@@ -1,0 +1,15 @@
+From: Google Cloud <CloudPlatform-noreply@google.com>
+To: user@example.com
+Subject: OpenTelemetry API Update
+Authentication-Results: spf=pass; dkim=pass; dmarc=pass
+Date: Thu, 19 Mar 2026 10:00:00 +0000
+
+Hello User,
+
+We are updating the OpenTelemetry ingestion API.
+No action is required from your side.
+
+More info: https://cloud.google.com/monitoring/api
+
+Best,
+Google Cloud Team

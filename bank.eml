@@ -1,0 +1,29 @@
+Delivered-To: victim.user@gmail.com
+Received: from mail.fakebank.com (mail.fakebank.com [185.234.217.89])
+        by mx.google.com with ESMTPS id x12si1234567qka.123.2026.02.10.10.25.30
+        for <victim.user@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 10 Feb 2026 10:25:31 +0530 (IST)
+Received-SPF: fail (google.com: domain of fraud-team@secure-verification-bank.com does not designate 185.234.217.89 as permitted sender) client-ip=185.234.217.89;
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of fraud-team@secure-verification-bank.com does not designate 185.234.217.89 as permitted sender) smtp.mailfrom=fraud-team@secure-verification-bank.com;
+       dkim=fail (bad signature) header.d=secure-verification-bank.com;
+       dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=secure-verification-bank.com
+From: "Bank Security Team" <fraud-team@secure-verification-bank.com>
+To: victim.user@gmail.com
+Subject: Urgent: Suspicious Transaction Detected
+Date: Mon, 10 Feb 2026 10:20:15 +0530
+Message-ID: <20260210102015.12345@mail.fakebank.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Dear Customer,
+
+We detected suspicious activity on your account ending in ****4832.
+
+Verify immediately:
+http://secure-verification-bank-login.com/verify-account
+
+Failure to act may result in account suspension.
+
+- Bank Security Team
